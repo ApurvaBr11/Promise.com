@@ -25,14 +25,20 @@ export default function Home() {
 
   return (
     <div data-scroll-container>
-      
       <div className="min-h-screen text-white bg-black relative bgr">
-        <div className=" z-10 h-full  absolute flex flex-col justify-center items-center w-full tracking-tight">
-          <p className="text-[200px]  font-bold grtext">We Promise</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde beatae
-            totam deleniti quod nam.
-          </p>
+        <div className=" z-10 h-full  absolute flex flex-col px-12  w-full tracking-tight">
+          <div className="text-[130px]  mt-10  font-bold  flex-col items-start justify-start flex">
+            <div className="flex justify-center items-center gap-10">
+              <p className="grtext leading-tight">we</p>
+              <div className="w-52 h-28 overflow-hidden flex items-center rounded-full">
+                <img
+                  src="https://i.pinimg.com/originals/44/a5/2c/44a52caf835ad2d687e4d67ec8016632.gif"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="leading-tight grtext2">Are Rooting For humanity </div>
+          </div>
         </div>
         <div className="min-h-screen flex justify-center items-center">
           <img
