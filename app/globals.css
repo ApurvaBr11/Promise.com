@@ -92,12 +92,12 @@ html.has-scroll-dragging {
 }
 .grtext{
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, rgb(78, 8, 159), #14616f); /* Adjust the gradient colors as needed */
+  background-image: linear-gradient(to right, rgb(78, 8, 159), #14616f); 
   background-clip: text;
   color: transparent;
 }
 .grtext2{
-  background-image: linear-gradient(to right, rgb(82, 0, 176), #51146f); /* Adjust the gradient colors as needed */
+  background-image: linear-gradient(to right, rgb(82, 0, 176), #51146f); 
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
