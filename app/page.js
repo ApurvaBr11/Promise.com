@@ -3,6 +3,8 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import Analytics from "@/components/Analytics";
 import Footer from "@/components/Footer";
+import Testimonial from "@/components/Testimonial";
+import Filler from "@/components/Filler";
 
 export default function Home() {
   const imgRef = useRef(null);
@@ -63,7 +65,9 @@ export default function Home() {
         </div>
       </div>
       <Analytics/>
+      <Testimonial/>
       <Footer/>
+      <Filler/>
     </div>
   );
 }

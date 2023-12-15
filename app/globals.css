@@ -102,3 +102,22 @@ html.has-scroll-dragging {
       background-clip: text;
       color: transparent;
 }
+.init{
+  display: flex;
+  animation: name 0.2s ease-in-out both;
+}
+.fin{
+  display: none;
+}
+
+@keyframes name {
+  0%{
+    opacity: 0;
+    transform: translateX(2px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(18px);
+
+  }
+}
