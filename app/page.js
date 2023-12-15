@@ -2,6 +2,7 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import Analytics from "@/components/Analytics";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const imgRef = useRef(null);
@@ -18,7 +19,7 @@ export default function Home() {
       const movementY = (clientY / window.innerHeight - 0.5) * 30;
       const movementY2 = (clientY / window.innerHeight - 0.2) * 60;
 
-      gsap.to(img, { x: movementX, y: movementY, ease: "power1.out" });
+      gsap.to(img, { x: -movementX, y: -movementY, ease: "power1.out" });
       gsap.to(img2, { x: movementX2, y: movementY2, ease: "power4.out" });
     };
 
@@ -62,6 +63,7 @@ export default function Home() {
         </div>
       </div>
       <Analytics/>
+      <Footer/>
     </div>
   );
 }
