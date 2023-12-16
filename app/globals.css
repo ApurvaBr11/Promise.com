@@ -104,10 +104,11 @@ html.has-scroll-dragging {
 }
 .init{
   display: flex;
-  animation: name 0.2s ease-in-out both;
+  animation: name 0.2s ease-in-out forwards ;
+  z-index: 999;
 }
 .fin{
-  display: none;
+  animation: hideAnimation 0.2s ease-in-out forwards;
 }
 
 @keyframes name {
@@ -119,5 +120,16 @@ html.has-scroll-dragging {
     opacity: 1;
     transform: translateX(18px);
 
+  }
+}
+
+@keyframes hideAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(18px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(2px);
   }
 }
