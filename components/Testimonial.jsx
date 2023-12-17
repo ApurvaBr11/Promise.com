@@ -73,6 +73,38 @@ const Testimonial = () => {
             <div className={`${first9?"init":"fin"} text-[8px] px-4 py-2  w-44 rounded-sm bg-yellow-50 -bottom-28 left-4  absolute  items-center justify-center font-black text-black cursor-pointer `}>Renewed Roots Charity has redefined what it means to be a catalyst for positive change. Their tireless efforts in community engagement, education, and sustainable development are creating a ripple effect that extends far beyond their immediate projects.</div>
           </div>
         </div>
+        {/* blurSection */}
+        <div className="absolute top-[12rem] -left-[1rem] blur-[0.8px]">
+          <div className="h-20 relative w-16 rounded-full border bg-[url('https://images.unsplash.com/photo-1517013826874-ae10195100e3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-top bg-cover bg-no-repeat">
+            <div  className="w-5 h-5 rounded-full bg-yellow-200 -bottom-2 left-2 absolute flex items-center justify-center font-black text-black cursor-pointer">+</div>
+            <div className={`text-[8px]  w-44 rounded-full bg-yellow-50 -bottom-28 left-4  absolute  items-center justify-center font-black text-black cursor-pointer `}></div>
+          </div>
+        </div>
+        <div className="absolute top-[6rem] left-[15rem] blur-[1px]">
+          <div className="h-20 relative w-16 rounded-full border bg-[url('https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-top bg-cover bg-no-repeat">
+            <div  className="w-5 h-5 rounded-full bg-yellow-200 -bottom-2 left-2 absolute flex items-center justify-center font-black text-black cursor-pointer">+</div>
+            <div className={`text-[8px]  w-44 rounded-full bg-yellow-50 -bottom-28 left-4  absolute  items-center justify-center font-black text-black cursor-pointer `}></div>
+          </div>
+        </div>
+        <div className="absolute bottom-[3rem] left-[27rem] blur-[1px]">
+          <div className="h-20 relative w-16 rounded-full border bg-[url('https://images.unsplash.com/photo-1584940120743-8981ca35b012?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-top bg-cover bg-no-repeat">
+            <div  className="w-5 h-5 rounded-full bg-yellow-200 -bottom-2 left-2 absolute flex items-center justify-center font-black text-black cursor-pointer">+</div>
+            <div className={`text-[8px]  w-44 rounded-full bg-yellow-50 -bottom-28 left-4  absolute  items-center justify-center font-black text-black cursor-pointer `}></div>
+          </div>
+        </div>
+        <div className="absolute top-[9rem] right-[32rem] blur-[1px]">
+          <div className="h-20 relative w-16 rounded-full border bg-[url('https://media.istockphoto.com/id/519863838/photo/texting.jpg?s=2048x2048&w=is&k=20&c=zq8IztR776MkRmkNdBpkUbiExetp7gmpeaPovhEk1uI=')] bg-top bg-cover bg-no-repeat">
+            <div  className="w-5 h-5 rounded-full bg-yellow-200 -bottom-2 left-2 absolute flex items-center justify-center font-black text-black cursor-pointer">+</div>
+            <div className={`text-[8px]  w-44 rounded-full bg-yellow-50 -bottom-28 left-4  absolute  items-center justify-center font-black text-black cursor-pointer `}></div>
+          </div>
+        </div>
+        <div className="absolute bottom-[14rem] -right-[2rem] blur-[0.7px]">
+          <div className="h-20 relative w-16 rounded-full border bg-[url('https://images.unsplash.com/photo-1584554376766-ac0f2c65e949?q=80&w=1927&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-top bg-cover bg-no-repeat">
+            <div  className="w-5 h-5 rounded-full bg-yellow-200 -bottom-2 left-2 absolute flex items-center justify-center font-black text-black cursor-pointer">+</div>
+            <div className={`text-[8px]  w-44 rounded-full bg-yellow-50 -bottom-28 left-4  absolute  items-center justify-center font-black text-black cursor-pointer `}></div>
+          </div>
+        </div>
+        {/* blurSection */}
     </div>
   )
 }
